@@ -5,13 +5,12 @@
     margin-top: 25px;
 }
 
-
-
 .name {
     font-family: 'STIX Two Text', serif;
     font-size: 50px;
     padding-left: 58px;
-    margin-bottom:0px
+    margin-bottom:0px;
+    color: white;
     
 }
 
@@ -20,6 +19,7 @@
     font-size: 25px;
     padding-left: 50px;
     margin-top:0px;
+    color: white;
     
 }
 
@@ -30,20 +30,21 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(247, 240, 240);
+    background-image: url('images/Kansas\ city.jpg');
     overflow-x: hidden;
   }
 
   .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 20px;
-    color: #818181;
+    font-size: 30px;
+    color: #f1f1f1;
     display: block;
+    margin-left: 30%;
   }
 
   .sidebar a:hover {
-    color: #f1f1f1;
+    color: #df2121;
   }
 
   .main {
@@ -54,4 +55,18 @@
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+
+  /*About me */
+
+  .me {
+      padding-left: 50%;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline;
+  }
+
+  .aboutMe {
+      padding-left: 28%;
+      font-size: 30px;
   }
