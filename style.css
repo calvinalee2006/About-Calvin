@@ -81,17 +81,18 @@
   /* slideshow */
 
   .slideshow-container {
-      max-width: 300px;
+      max-width: 150px;
       position: relative;
       float: right;
       margin: auto;
       padding-top:2%;
-      padding-right: 10%;
+      padding-right: 15%;
       display:block;
   }
 
   .mySlides {
       display: none;
+      
   }
 
   .fade {
@@ -111,11 +112,20 @@
     to {opacity: 1}
   }
 
-  /*skills*/
+  /*education*/
 
   .skills {
     padding-left: 50%;
       font-size: 50px;
       font-family: 'Times New Roman', Times, serif;
       text-decoration: underline;
+  }
+
+  #teach {
+    padding-left: 28%; 
+    font-size: 30px; 
+  }
+
+  .certificates {
+    display:inline-block;
   }
